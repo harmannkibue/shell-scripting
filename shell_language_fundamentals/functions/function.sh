@@ -3,7 +3,6 @@
 LINES_SEPARATOR="-"
 WIDTH=50
 
-# Todo: The function should be rewritten
 repeat_space(){
   NUMBER_CHECK_EXPRESSION=re='^[0-9]+$'
   INPUT=$1
