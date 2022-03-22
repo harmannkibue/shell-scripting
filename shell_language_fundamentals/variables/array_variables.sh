@@ -1,24 +1,15 @@
 #!/usr/bin/env bash
 
+#Importing the dashed spaces separator function
+source ./../functions/function.sh
+
 NAME[0]="Zara"
 NAME[1]="Qadir"
 NAME[2]="Mahnaz"
 NAME[3]="Ayan"
 NAME[4]="Daisy"
 
-LINES_SEPARATOR="-"
-WIDTH=10
-
-# Todo: The function should be rewritten
-repeat(){
-	for i in {1..$1};
-	  do
-	    echo -n "$2";
-    done
-}
-
-
 echo "The first name iss: ${NAME[0]}"
 echo "The second name iss: ${NAME[1]}"
-echo "---------------------------------"
+repeat_space 50
 echo "All the array items are: ${NAME[*]}"
