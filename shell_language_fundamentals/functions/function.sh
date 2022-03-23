@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-LINES_SEPARATOR="-"
+LINES_SEPARATOR="<->"
 WIDTH=50
 
 repeat_space(){
@@ -8,7 +8,6 @@ repeat_space(){
   INPUT=$1
   if ! [[ $INPUT =~ $NUMBER_CHECK_EXPRESSION ]]
   then
-    echo "Found word"
     WIDTH=$1
   fi
 	for ((i=1;i<=WIDTH;i++));
