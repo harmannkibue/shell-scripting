@@ -6,13 +6,17 @@ BRANCH=`git rev-parse --abbrev-ref HEAD`
 
 echo "Pushing to branch ${BRANCH}"
 # Function call from the source import above
+echo
+repeat_space 20
+echo "YOUR GIT STATUS: "
+git status
 repeat_space 20
 echo -n "Enter file path() to commit, (Press enter to commit all): "
 read FILE_PATH
 
 repeat_space 20
 
-
+# Check if there is a file path
 if [ -z "${FILE_PATH}" ]
 then
       git add .
