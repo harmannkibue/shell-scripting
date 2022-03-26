@@ -5,7 +5,8 @@ source ./functions/function.sh
 BRANCH=`git rev-parse --abbrev-ref HEAD`
 
 echo "Pushing to branch ${BRANCH}"
-repeat_space 20
+# Function call from the source import above
+repeat_space 2
 echo -n "Enter commit message: "
 read COMMIT
 
