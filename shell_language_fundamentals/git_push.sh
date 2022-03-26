@@ -8,6 +8,7 @@ echo "Pushing to branch ${BRANCH}"
 # Function call from the source import above
 echo
 repeat_space 20
+# Showing git status.Copy files to add.
 echo "YOUR GIT STATUS: "
 git status
 repeat_space 20
