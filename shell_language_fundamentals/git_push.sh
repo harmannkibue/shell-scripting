@@ -24,4 +24,4 @@ echo -n "Enter commit message: "
 read COMMIT
 
 git commit -m "$COMMIT"
-#git push origin ${BRANCH}
+git push origin ${BRANCH}
