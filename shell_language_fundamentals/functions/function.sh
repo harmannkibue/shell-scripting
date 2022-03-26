@@ -4,7 +4,7 @@ LINES_SEPARATOR="<->"
 WIDTH=50
 
 # This is a function that takes an optional parameter width
-# which is the number of times to print on screen LINES_SEPARATOR
+# which is the number of times to print on screen LINES_SEPARATOR eg --------------
 
 repeat_space(){
   NUMBER_CHECK_EXPRESSION=re='^[0-9]+$'
