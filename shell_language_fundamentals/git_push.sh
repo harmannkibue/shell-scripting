@@ -16,7 +16,7 @@ then
 #      echo "Path is empty is empty"
       git add .
 else
-#      echo "Path is NOT empty ${FILE_PATH}"
+      echo "Path is NOT empty ${FILE_PATH}"
       git add $FILE_PATH
 fi
 
